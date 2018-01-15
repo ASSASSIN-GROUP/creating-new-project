@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="header-line">
+    <h3 class="title">projects</h3>
+    <button class="btn btn-primary create-project">
+      <i class="fa fa-plus" aria-hidden="true"></i>&nbsp;create project
+    </button>
+  </div>
+  <div class="row">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>
+            <input type="checkbox" />
+          </th>
+          <th>Project Title</th>
+          <th>Summary / Abstract</th>
+          <th>Last Modified</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let table of tables">
+          <td><input type="checkbox" /></td>
+          <td>{{table.title}}</td>
+          <td>{{table.description}}</td>
+          <td>{{table.date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+
+.header-line {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.header-line button {
+    background-color: #F1F1F1;
+    border-color: #F1F1F1;
+    color: #0332bc;
+    font-size: 20px;
+    float: right;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
