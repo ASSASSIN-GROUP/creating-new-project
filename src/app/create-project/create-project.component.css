@@ -1,0 +1,17 @@
+.header-line {
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.selection {
+    width: 40%;
+}
+
+.control-label {
+    text-align: left;
+}
+
+.row form {
+    margin-bottom: 60px;
+}
